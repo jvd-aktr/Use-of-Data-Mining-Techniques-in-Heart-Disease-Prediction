@@ -1,0 +1,40 @@
+1. Code Base Organization:
+
+the solution code is organized chronologically. the order is:
+
+ a. Data visualization (Plotting graphs to view dataset trend)
+ b. Data Preprocessing, (making necessary changes and splitting dataset to train and test in 80:20 fashion)
+ c. Running training models:
+       Decision Tree , Logistic Regression , Support Vector Machine , Naive Bayes ,Random Forest ,MLP
+
+ d. Comparing the accuracy, precision, recall of the training models and plotting comparison charts
+
+2. Commands to Run:
+
+   keep the dataset and python solution in the same directory
+
+   Run "python solution_stage5.py"
+
+
+3. Package/Library names:
+   pandas
+   matplotlib.pyplot
+   seaborn
+
+   sklearn.model_selection  train_test_split
+   sklearn.preprocessing  StandardScaler
+   sklearn.tree  DecisionTreeClassifier
+   sklearn.linear_model  LogisticRegression
+   sklearn.metrics  confusion_matrix
+   sklearn.svm  SVC
+   sklearn.naive_bayes  GaussianNB
+   sklearn.ensemble  RandomForestClassifier
+   sklearn.neural_network  MLPClassifier
+   sklearn.metrics  precision_score, recall_score
+
+
+
+4. Dataset information
+
+   dataset file name: dataset_stage5.csv
+   there are 921 rows and 15 colums
